@@ -1,10 +1,12 @@
 # git_learning
-This is a tutorial of git for the beginners which is found in bilibili
+This is a tutorial of git for the beginners
 
-github加速https://blog.csdn.net/qq_51688013/article/details/123402986
+github加速 https://blog.csdn.net/qq_51688013/article/details/123402986
 
 视频教程
 https://www.bilibili.com/video/BV1za411j79T?spm_id_from=333.337.search-card.all.click&vd_source=589132dab1c04f6e167670673a35576a
+
+# git上传文件到指定仓库
 
 1.github账号和本地建立ssh连接
 
