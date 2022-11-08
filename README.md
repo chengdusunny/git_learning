@@ -44,6 +44,8 @@ git pull --rebase origin branch名
 
 git push -u origin branch名
 
+# 报错及解决方案
+
 报错：
 
 $ git pull --rebase origin main
