@@ -44,6 +44,8 @@ git pull --rebase origin branch名
 
 git push -u origin branch名
 
+rebase的含义: https://blog.csdn.net/m0_69424697/article/details/125106290
+
 # 报错及解决方案
 
 报错：
