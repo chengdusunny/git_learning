@@ -1,10 +1,17 @@
 # git_learning
 This is a tutorial of git for the beginners
 
-github加速 https://blog.csdn.net/qq_51688013/article/details/123402986
+# github加速
+
+教程:https://blog.csdn.net/qq_51688013/article/details/123402986
 
 视频教程
 https://www.bilibili.com/video/BV1za411j79T?spm_id_from=333.337.search-card.all.click&vd_source=589132dab1c04f6e167670673a35576a
+
+# git GUI 使用教程
+使用git GUI来对github库进行操作是最方便的, 教程链接: https://blog.csdn.net/m0_37273490/article/details/80517057
+
+如果想使用命令行(Bash), 可参考以下教程:
 
 # git上传文件到指定仓库
 
