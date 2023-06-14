@@ -92,30 +92,16 @@ fatal: protocol 'https' is not supported
 
 https://blog.csdn.net/codererer/article/details/105303972
 
-# git常用指令
+# 参考博客
 
-git设置ssh
+[git设置ssh](https://www.jianshu.com/p/ee2578821d49)
 
-https://www.jianshu.com/p/ee2578821d49
+[git:如何上传本地项目到远程仓库](https://blog.csdn.net/weixin_46471601/article/details/124996250)
 
-git:如何上传本地项目到远程仓库
+[git提交代码](https://blog.csdn.net/qq_46032550/article/details/121684365)
 
-https://blog.csdn.net/weixin_46471601/article/details/124996250
+[git创建新分支](https://blog.csdn.net/qq_37899792/article/details/121328761)
 
-git提交代码
+[git推送代码到main分支](https://www.bilibili.com/read/cv8633117/)
 
-https://blog.csdn.net/qq_46032550/article/details/121684365
-
-git创建新分支
-
-https://blog.csdn.net/qq_37899792/article/details/121328761
-
-git推送代码到main分支
-
-git branch -D master
-
-https://www.bilibili.com/read/cv8633117/
-
-github提交代码非空的文件夹
-
-https://www.cnblogs.com/zhangshijiezsj/p/14848801.html
+[github提交代码非空的文件夹](https://www.cnblogs.com/zhangshijiezsj/p/14848801.html)
