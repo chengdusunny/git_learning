@@ -3,12 +3,13 @@ This is a tutorial of git for the beginners
 
 # github加速
 
-教程:https://blog.csdn.net/qq_51688013/article/details/123402986
+教程: https://blog.csdn.net/qq_51688013/article/details/123402986
 
 视频教程
 https://www.bilibili.com/video/BV1za411j79T?spm_id_from=333.337.search-card.all.click&vd_source=589132dab1c04f6e167670673a35576a
 
 # git GUI 使用教程
+
 使用git GUI来对github库进行操作是最方便的, 教程链接: https://blog.csdn.net/m0_37273490/article/details/80517057
 
 如果想使用命令行(Bash), 可参考以下教程:
@@ -55,11 +56,11 @@ rebase的含义: https://blog.csdn.net/m0_69424697/article/details/125106290
 
 # 报错及解决方案
 
-报错：
+## Case 1.
 
 $ git pull --rebase origin main
 
-fatal: unable to access 'https://github.com/chengdusunny/Commun_RL.git/': Failed to connect to github.com port 443 after 21067 ms: Timed out
+fatal: unable to access 'https://github.com/user_name/xxxxx.git/': Failed to connect to github.com port 443 after 21067 ms: Timed out
 
 解决方案：
 
@@ -71,11 +72,11 @@ https://blog.csdn.net/Emily_JYN/article/details/117679831
 
 注意: github上传的单个文件不要超过25M
 
-报错：
+## Case 2.
 
 $ git push -u origin main
 
-fatal: unable to access 'https://github.com/chengdusunny/TVT_202200083.git/': OpenSSL SSL_read: Connection was reset, errno 10054
+fatal: unable to access 'https://github.com/user_name/xxxxx.git/': OpenSSL SSL_read: Connection was reset, errno 10054
 
 解决方案： 
 
