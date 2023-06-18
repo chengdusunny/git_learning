@@ -6,19 +6,17 @@ This is a tutorial of git for the beginners
 教程: https://blog.csdn.net/qq_51688013/article/details/123402986
 
 视频教程:
-https://www.bilibili.com/video/BV1za411j79T?spm_id_from=333.337.search-card.all.click&vd_source=589132dab1c04f6e167670673a35576a
+https://www.bilibili.com/video/BV1za411j79T?spm_id_from=333.337.search-card.all.click&vd_source=589132dab1c04f6e167670673a35576agt
 
-# git GUI 使用教程
+# 使用git对仓库进行管理  
 
 使用git GUI来对github库进行操作是最方便的, 教程链接: https://blog.csdn.net/m0_37273490/article/details/80517057
 
-如果想使用命令行(Bash), 可参考以下教程:
+如果想使用命令行(Bash)方式, 可参考以下教程:
 
-# git上传文件到指定仓库
+1. github账号和本地建立ssh连接(仅初次使用git需要)
 
-1.github账号和本地建立ssh连接
-
-教程: https://www.jianshu.com/p/ee2578821d49
+教程详见: https://www.jianshu.com/p/ee2578821d49
 
 ssh-keygen -t rsa -C "邮箱"
 
@@ -26,7 +24,9 @@ ssh-keygen -t rsa -C "邮箱"
 
 测试：输入 ssh -T git@github.com， 如果结果为successful，说明github账号已经和本地连接
 
-2.到代码文件夹下，右键打开git bash
+2. 克隆仓库到本地(仅需1次, 可以反复修改和同步)
+
+3. 修改仓库后把本地进度同步到github, 步骤如下: 到代码文件夹下，右键打开git bash, 依次输入如下命令:
 
 git init
 
@@ -50,13 +50,15 @@ git pull --rebase origin branch名
 
 建议先git clone xxxxx.git把整个仓库clone下来, 在本地修改，这样就无需此步)
 
-rebase的含义: https://blog.csdn.net/m0_69424697/article/details/125106290
+其中rebase命令的含义: https://blog.csdn.net/m0_69424697/article/details/125106290
 
 git push -u origin branch名
 
 这一步很容易报错(fail to access...), 解决方案见下文
 
 # 报错及解决方案
+
+最常发生的报错是push失败, 解决方法详见case 2
 
 ## Case 1.
 
@@ -88,9 +90,7 @@ fatal: unable to access 'https://github.com/user_name/xxxxx.git/': OpenSSL SSL_r
 
 fatal: protocol 'https' is not supported 
 
-解决方案：
-
-https://blog.csdn.net/codererer/article/details/105303972
+解决方案详见: https://blog.csdn.net/codererer/article/details/105303972
 
 # 参考博客
 
