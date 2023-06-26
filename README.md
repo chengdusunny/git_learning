@@ -72,6 +72,8 @@ fatal: unable to access 'https://github.com/user_name/xxxxx.git/': Failed to con
 
 然后再 git remote add origin 项目仓库网址(.git结尾的)
 
+如果不奏效, 可能是代理的事, 可尝试该[博客](https://blog.csdn.net/ESCM_/article/details/124498679)中提出的解决方案.
+
 注意: github上传的单个文件不要超过25M
 
 ## Case 2.
