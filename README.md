@@ -10,7 +10,7 @@ This is a tutorial of git for the beginners
 
 [视频教程链接](https://www.bilibili.com/video/BV1za411j79T?spm_id_from=333.337.search-card.all.click&vd_source=589132dab1c04f6e167670673a35576agt)
 
-[github镜像站](https://www.github.com/)
+[github镜像站](https://www.kgithub.com/)
 
 
 # 使用git对仓库进行管理  
