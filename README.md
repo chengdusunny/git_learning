@@ -6,8 +6,11 @@ This is a tutorial of git for the beginners
 
 [博客教程链接](https://blog.csdn.net/qq_51688013/article/details/123402986)
 
+更新教程 [link](https://blog.csdn.net/langfeiyes/article/details/128487969)
+
 [视频教程链接](https://www.bilibili.com/video/BV1za411j79T?spm_id_from=333.337.search-card.all.click&vd_source=589132dab1c04f6e167670673a35576agt)
 
+[github镜像站](https://www.gitclone.com/)
 
 
 # 使用git对仓库进行管理  
